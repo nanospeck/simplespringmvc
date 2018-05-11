@@ -10,6 +10,7 @@ Username :admin Passoword :admin
 URLS:
 
 Page with list of atms -  http://localhost:8080/BackbaseApp/home Rest endpoint - http://localhost:8080/BackbaseApp/atms?city=ABC
+
 IDE USED:  Eclipse Luna
 
 ## INSTRUCTION TO RUN

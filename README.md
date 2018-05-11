@@ -1,7 +1,7 @@
 # simplespringmvc
 Simple Spring MVC
 
-How the Project was Done
+## How the Project was Done
  
 I have worked in Spring mvc projects before. So I set up a basic spring with a ‘hello world’ controller first ( no xmls, only annotations and classes ).Then I integrated the json data call into the controller from service layer (first hardcoded and read from a file in local and then made it a url call later. After that I added another controller exclusive for Rest endpoint.
 
@@ -12,11 +12,11 @@ URLS:
 Page with list of atms -  http://localhost:8080/BackbaseApp/home Rest endpoint - http://localhost:8080/BackbaseApp/atms?city=ABC
 IDE USED:  Eclipse Luna
 
-##INSTRUCTION TO RUN##
+## INSTRUCTION TO RUN
 I have added an embedded tomcat to the project. Hence, you can run this project directly by running the command:
 mvn tomcat7:run
 
-##Overview##
+## Overview
 
 * Create a Java web application based on the standard servlet spec   [DONE]
 * The web application should provide a REST api to create a list of ING ATMs in a given Dutch city and return a well formed JSON response  [DONE]
